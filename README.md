@@ -21,7 +21,7 @@
 --------------------------------------------------------------------------------------------------------
 ### 一：设置Root密码一键脚本（抛弃秘钥文件，与sudo -i说再见。默认ROOT权限，方便登录与编辑文件）
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/root.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/xyxmos/Oracle-warp/main/root.sh)
 ```
 -----------------------------------------------------------------------------------------------------
 ### 二：更新甲骨文Ubuntu系统内核一键脚本
@@ -32,11 +32,11 @@ bash <(curl -sSL https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/root.
 
 ### 1、通用内核5.11版本（推荐：通用稳定版，后续会更新）
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/generic-kernel.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/xyxmos/Oracle-warp/main/generic-kernel.sh)
 ```
 ### 2、第三方xanmod内核（安装时自动安装最新版本）
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/xanmod-kernel.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/xyxmos/Oracle-warp/main/xanmod-kernel.sh)
 ```
 -------------------------------------------------------------------------------------------------------------
 ### 三：开启BBR加速（秋水逸冰大老-传统版）
@@ -51,15 +51,15 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 
 #### (双栈IPV4+IPV6)脚本1：IPV4是VPS本地IP，IPV6是WARP分配的IP
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/warp6.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/xyxmos/Oracle-warp/main/warp6.sh)
 ```
 #### (双栈IPV4+IPV6)脚本2：IPV4与IPV6都是WARP分配的IP
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/warp64.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/xyxmos/Oracle-warp/main/warp64.sh)
 ```
 #### (单IPV4)脚本3：IPV4是WARP分配的IP，无IPV6（不支持IPV6 VPS跳板机）
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/YG-tsj/Oracle-warp/main/warp4.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/xyxmos/Oracle-warp/main/warp4.sh)
 ```
 -------------------------------------------------------------------------------------------------------------
 #### Netflix检测项目：https://github.com/YG-tsj/Netflix-Check
